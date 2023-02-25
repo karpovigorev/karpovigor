@@ -1,4 +1,4 @@
-package OOP1;
+
 public class Person {
     public String fullName;
     public int age;

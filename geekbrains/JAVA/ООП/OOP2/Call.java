@@ -1,5 +1,6 @@
 package OOP2;
 
+
 public class Call {
     Person p;
     Cat cat;

@@ -1,5 +1,7 @@
 package OOP2;
 
+
+
 public class Cat {
     private String name;
 
