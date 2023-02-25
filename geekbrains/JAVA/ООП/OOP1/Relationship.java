@@ -1,4 +1,4 @@
-package OOP1.JavaOOP1;
+package OOP1;
 
 public enum Relationship {
     parent,
