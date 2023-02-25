@@ -1,0 +1,15 @@
+/Users/igor/Desktop/C#/course/course/bin/Debug/net6.0/course
+/Users/igor/Desktop/C#/course/course/bin/Debug/net6.0/course.deps.json
+/Users/igor/Desktop/C#/course/course/bin/Debug/net6.0/course.runtimeconfig.json
+/Users/igor/Desktop/C#/course/course/bin/Debug/net6.0/course.dll
+/Users/igor/Desktop/C#/course/course/bin/Debug/net6.0/course.pdb
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.csproj.AssemblyReference.cache
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.AssemblyInfoInputs.cache
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.AssemblyInfo.cs
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.csproj.CoreCompileInputs.cache
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.dll
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/refint/course.dll
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.pdb
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/course.genruntimeconfig.cache
+/Users/igor/Desktop/C#/course/course/obj/Debug/net6.0/ref/course.dll
