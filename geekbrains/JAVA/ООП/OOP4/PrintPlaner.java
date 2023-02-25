@@ -15,7 +15,7 @@ public class PrintPlaner {
 
     // метод переброса csv файла в ArrayList
     public ArrayList<String> planerArrayList() throws IOException {
-        FileReader inFile = new FileReader("OOP4/planer.csv");
+        FileReader inFile = new FileReader("./planer.csv");
         file = new Scanner(inFile);
 
         while (file.hasNextLine()) {

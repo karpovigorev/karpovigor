@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AddTask {
@@ -42,19 +41,19 @@ public class AddTask {
         String nowDate = formatter.format(date);
         addInfo = addInfo + nowDate + ";";
 
-        Scanner in = new Scanner(System.in, "Cp866");
+        try (Scanner in = new Scanner(System.in, "Cp866")) {
+            System.out.println("Введите фамилию автора проекта");
+            addInfo = addInfo + in.nextLine() + ";";
 
-        System.out.println("Введите фамилию автора проекта");
-        addInfo = addInfo + in.nextLine() + ";";
+            System.out.println("Введте дедлайн в формате дд-мм-гггг");
+            addInfo = addInfo + in.nextLine() + ";";
 
-        System.out.println("Введте дедлайн в формате дд-мм-гггг");
-        addInfo = addInfo + in.nextLine() + ";";
+            System.out.println("Кратко опишите задачу");
+            addInfo = addInfo + in.nextLine() + ";";
 
-        System.out.println("Кратко опишите задачу");
-        addInfo = addInfo + in.nextLine() + ";";
-
-        System.out.println("Введите приоритет задачи (1 - не срочная, 2 - средняя, 3 - срочная)");
-        addInfo = addInfo + in.nextLine();
+            System.out.println("Введите приоритет задачи (1 - не срочная, 2 - средняя, 3 - срочная)");
+            addInfo = addInfo + in.nextLine();
+        }
 
         return addInfo;
     }
